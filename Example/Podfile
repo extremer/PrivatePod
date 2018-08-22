@@ -1,7 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/extremer/PrivatePodSpec.git'
+
 use_frameworks!
 
 target 'JJPrivatePod_Example' do
   pod 'JJPrivatePod', :path => '../'
+  pod 'Alamofire'
 
   target 'JJPrivatePod_Tests' do
     inherit! :search_paths
