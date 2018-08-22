@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		1C073DD9D532EC1E0468B68A /* Pods-JJPrivatePod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJPrivatePod_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJPrivatePod_Example/Pods-JJPrivatePod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1F613815BB9D89234CC8A080 /* JJPrivatePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JJPrivatePod.podspec; path = ../JJPrivatePod.podspec; sourceTree = "<group>"; };
+		1F613815BB9D89234CC8A080 /* JJPrivatePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JJPrivatePod.podspec; path = ../JJPrivatePod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4FF4777C6BE4EDC408BD72C8 /* Pods_JJPrivatePod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJPrivatePod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* JJPrivatePod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJPrivatePod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,9 +42,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		63C860CC36E9686B124FEAF3 /* Pods_JJPrivatePod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJPrivatePod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A018D898D0B2D5A4ED2DA868 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A018D898D0B2D5A4ED2DA868 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A95EECE9B390AAF39C885D83 /* Pods-JJPrivatePod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJPrivatePod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJPrivatePod_Tests/Pods-JJPrivatePod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AD924B0437936BD8463FBD7B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AD924B0437936BD8463FBD7B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B3C542D3569CA655C26BF7B8 /* Pods-JJPrivatePod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJPrivatePod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJPrivatePod_Example/Pods-JJPrivatePod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C489FBD46A39706357118DA4 /* Pods-JJPrivatePod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJPrivatePod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJPrivatePod_Tests/Pods-JJPrivatePod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -267,15 +267,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-JJPrivatePod_Tests-checkManifestLockResult.txt",
 			);
@@ -289,15 +285,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-JJPrivatePod_Example/Pods-JJPrivatePod_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/JJPrivatePod/JJPrivatePod.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JJPrivatePod.framework",
 			);
@@ -311,8 +303,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-JJPrivatePod_Tests/Pods-JJPrivatePod_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
@@ -321,8 +311,6 @@
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
@@ -339,15 +327,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-JJPrivatePod_Example-checkManifestLockResult.txt",
 			);
